@@ -1,4 +1,4 @@
-## DistanceMarker
+## DistanceMarker-Plus
 A mod displaying customizable marker with a distance.
 
 Features:
@@ -20,7 +20,7 @@ Here are websites, where mod is uploaded directly by me:
 * [GitHub release page](https://github.com/Pruszko/DistanceMarker/releases)
 
 ## Installation
-Copy "DistanceMarker_X.wotmod" and other "*.wotmod" files extracted
+Copy "DistanceMarker-Plus_X.wotmod" and other "*.wotmod" files extracted
 from downloaded zip into "[WoT game directory]/mods/[version]/" directory
 
 Config file location:  

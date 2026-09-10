@@ -1,0 +1,2 @@
+class AsyncReturn(BaseException):
+    pass

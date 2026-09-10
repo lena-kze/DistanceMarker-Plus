@@ -1,0 +1,166 @@
+{
+  "modname": "DistanceMarker-Plus",
+  "checked": "checked",
+  "unchecked": "unchecked",
+  "defaultValue": "default",
+  "intro.label": "Config file info",
+  "intro.header": "Config file",
+  "intro.body": [
+    "Config can also be changed by manually altering config file.\n\n",
+    "Config file location:\n",
+    "- [WoT game directory]/mods/configs/DistanceMarker/config.json"
+  ],
+  "intro.note": [
+    "If you want to generate default config file, delete it and launch a game again."
+  ],
+  "mod-language.header": "Language",
+  "mod-language.body": [
+    "Selects the language of the mod interface.\n",
+    "- Englisch - English interface,\n",
+    "- Deutsch - German interface (default)."
+  ],
+  "visibility-settings.label": "Visibility settings",
+  "display-mode.header": "Display mode",
+  "display-mode.body": [
+    "Configures when marker should be displayed:\n",
+    "- Always - displays marker always,\n",
+    "- On ALT pressed - when ALT key is being pressed."
+  ],
+  "display-mode.option.always": "Always",
+  "display-mode.option.on-alt-pressed": "On ALT key pressed",
+  "marker-target.header": "Marker target",
+  "marker-target.body": [
+    "Configures for which tanks marker should be displayed:\n",
+    "- Ally and enemy - for all tanks,\n",
+    "- Only enemy - only for enemies."
+  ],
+  "marker-target.option.ally-and-enemy": "Ally and enemy",
+  "marker-target.option.only-enemy": "Only enemy",
+  "position-settings.label": "Position settings (draggable in battle with mouse)",
+  "anchor-position.header": "Anchor position",
+  "anchor-position.body": [
+    "Position at which markers are initially displayed with zero offsets:\n",
+    "- Tank marker - at standard tank marker position,\n",
+    "- Tank center - at tank center position,\n",
+    "- Tank bottom - at tank bottom position."
+  ],
+  "anchor-position.option.tank-marker": "Tank marker",
+  "anchor-position.option.tank-center": "Tank center",
+  "anchor-position.option.tank-bottom": "Tank bottom",
+  "lock-position-offsets.header": "Lock anchor offsets in battle",
+  "lock-position-offsets.body": [
+    "When checked, markers positions offsets can no longer be edited during battle.\n",
+    "Useful if you want to prevent accidental change."
+  ],
+  "anchor-horizontal-offset.header": "Anchor horizontal offset",
+  "anchor-horizontal-offset.body": [
+    "Controls horizontal marker offset relative to anchor position, in pixels.\n",
+    "Positive values moves marker to right side, negative values - to left side.\n\n",
+    "Hint: Offsets can be visually edited during battle by dragging markers ",
+    "with mouse while CTRL key is being held.\n",
+    "Offsets will be saved in configuration on battle finish or manual exit."
+  ],
+  "anchor-vertical-offset.header": "Anchor vertical offset",
+  "anchor-vertical-offset.body": [
+    "Controls vertical marker offset relative to anchor position, in pixels.\n",
+    "Positive values moves marker upwards, negative values - downwards.\n\n",
+    "Hint: Offsets can be visually edited during battle by dragging markers ",
+    "with mouse while CTRL key is being held.\n",
+    "Offsets will be saved in configuration on battle finish or manual exit."
+  ],
+  "visual-settings.label": "Visual settings",
+  "decimal-precision.header": "Decimal precision",
+  "decimal-precision.body": [
+    "Decimal precision of displayed distance."
+  ],
+  "text-size.header": "Standard text size",
+  "text-size.body": [
+    "Base size of text displayed in marker."
+  ],
+  "text-alpha.header": "Text alpha",
+  "text-alpha.body": [
+    "Controls transparency of text in markers:\n",
+    "- value 1.0 means full visibility,\n",
+    "- value 0.0 means zero visibility."
+  ],
+  "draw-text-outline.header": "Draw text outline",
+  "draw-text-outline.body": [
+    "When checked, text is additionally displayed with black outline.\n",
+    "Very useful when text blends with arbitrary shapes (for example: hover icon of vehicle markers)."
+  ],
+  "draw-text-shadow.header": "Draw text shadow",
+  "draw-text-shadow.body": [
+    "When checked, text is additionally displayed with smooth gradient shadow.\n",
+    "Useful when text blends with background."
+  ],
+  "draw-distance-unit.header": "Draw distance unit",
+  "draw-distance-unit.body": [
+    "When checked, distance is additionally displayed with meter unit (like \"420 m\")."
+  ],
+  "imprecise-display-mode.header": "Imprecise distance display",
+  "imprecise-display-mode.body": [
+    "Select when the \"^\" symbol is shown instead of the rounded distance:\n",
+    "- Always \"^\": The symbol is always displayed.\n",
+    "- \"^\" near view-circle change: Exact numbers are shown in special ranges.\n",
+    "- Always numbers: Distance values are always displayed."
+  ],
+  "imprecise-display-mode.option.always-symbol": "Always \"^\"",
+  "imprecise-display-mode.option.except-view-range": "\"^\" near view-circle change",
+  "imprecise-display-mode.option.always-numbers": "Always numbers",
+  "distance-zone-colors.label": "<b>Distance zones</b>",
+  "zone-1.info": "<b>Area 1: proxy spotting area (up to 50 m)</b>",
+  "zone-2.info": "<b>Area 2: spotting area (view range, 51-175 m)</b>",
+  "zone-3.info": "<b>Area 2: spotting area (view range, 176-250 m)</b>",
+  "zone-4.info": "<b>Area 2: spotting area (view range, 251-300 m)</b>",
+  "zone-5.info": "<b>Area 2: spotting area (view range, 301-445 m)</b>",
+  "zone-6.info": "<b>Area 3: display area (render distance, above 445 m)</b>",
+  "near-distance-color.header": "Text color",
+  "near-distance-color.body": [
+    "Color of the marker text for tanks up to 50 m (proxy spotting area)."
+  ],
+  "text-color.header": "Text color",
+  "text-color.body": [
+    "Color of the marker text for tanks between 51 and 175 m."
+  ],
+  "zone3-distance-color.header": "Text color",
+  "zone3-distance-color.body": [
+    "Color of the marker text for tanks between 176 and 250 m."
+  ],
+  "zone4-distance-color.header": "Text color",
+  "zone4-distance-color.body": [
+    "Color of the marker text for tanks between 251 and 300 m."
+  ],
+  "zone5-distance-color.header": "Text color",
+  "zone5-distance-color.body": [
+    "Color of the marker text for tanks between 301 and 445 m."
+  ],
+  "far-distance-color.header": "Text color",
+  "far-distance-color.body": [
+    "Color of the marker text for tanks further than 445 m (potential detection range)."
+  ],
+  "size-bonus-zone1.header": "Standard text size + summand",
+  "size-bonus-zone1.body": [
+    "Additional text size added to the base text size for tanks up to 50 m."
+  ],
+  "size-bonus-zone2.header": "Standard text size + summand",
+  "size-bonus-zone2.body": [
+    "Additional text size added to the base text size for tanks between 51 and 175 m."
+  ],
+  "size-bonus-zone3.header": "Standard text size + summand",
+  "size-bonus-zone3.body": [
+    "Additional text size added to the base text size for tanks between 176 and 250 m."
+  ],
+  "size-bonus-zone4.header": "Standard text size + summand",
+  "size-bonus-zone4.body": [
+    "Additional text size added to the base text size for tanks between 251 and 300 m."
+  ],
+  "size-bonus-zone5.header": "Standard text size + summand",
+  "size-bonus-zone5.body": [
+    "Additional text size added to the base text size for tanks between 301 and 445 m."
+  ],
+  "size-bonus-zone6.header": "Standard text size + summand",
+  "size-bonus-zone6.body": [
+    "Additional text size summand for tanks further than 445 m."
+  ],
+  "footer.label": "Von Lena_Kze in Deutschland erstellt. <3"
+}

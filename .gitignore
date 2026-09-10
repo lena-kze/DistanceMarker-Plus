@@ -10,3 +10,11 @@
 /**/*.swf
 src_flash/*/obj/*
 target/**
+
+# Local Windows/IDE and Python build artifacts
+**/desktop*.ini
+**/__pycache__/
+**/*.pyc
+!modified/zip/**/*.pyc
+interim/
+src/compiled/

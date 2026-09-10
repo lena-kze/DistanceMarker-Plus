@@ -1,0 +1,166 @@
+{
+  "modname": "DistanceMarker-Plus",
+  "checked": "aktiviert",
+  "unchecked": "deaktiviert",
+  "defaultValue": "Standard",
+  "intro.label": "Config-Datei-Info",
+  "intro.header": "Config-Datei",
+  "intro.body": [
+    "Die Konfiguration kann auch manuell in der Config-Datei geändert werden.\n\n",
+    "Speicherort der Config-Datei:\n",
+    "- [WoT-Spielverzeichnis]/mods/configs/DistanceMarker/config.json"
+  ],
+  "intro.note": [
+    "Um eine Standard-Config zu erzeugen, einfach die Datei löschen und das Spiel neu starten."
+  ],
+  "mod-language.header": "Sprache",
+  "mod-language.body": [
+    "Wählt die Sprache der Mod-Oberfläche.\n",
+    "- Englisch - englische Oberfläche,\n",
+    "- Deutsch - deutsche Oberfläche (Standard)."
+  ],
+  "visibility-settings.label": "Sichtbarkeits-Einstellungen",
+  "display-mode.header": "Anzeigemodus",
+  "display-mode.body": [
+    "Legt fest, wann der Marker angezeigt werden soll:\n",
+    "- Immer - Marker wird immer angezeigt,\n",
+    "- Bei ALT gedrückt - wenn die ALT-Taste gedrückt wird."
+  ],
+  "display-mode.option.always": "Immer",
+  "display-mode.option.on-alt-pressed": "Bei ALT gedrückt",
+  "marker-target.header": "Marker-Ziel",
+  "marker-target.body": [
+    "Legt fest, für welche Panzer der Marker angezeigt werden soll:\n",
+    "- Verbündete und Gegner - für alle Panzer,\n",
+    "- Nur Gegner - nur für feindliche Panzer."
+  ],
+  "marker-target.option.ally-and-enemy": "Verbündete und Gegner",
+  "marker-target.option.only-enemy": "Nur Gegner",
+  "position-settings.label": "Positions-Einstellungen (im Gefecht mit Maus verschiebbar)",
+  "anchor-position.header": "Ankerposition",
+  "anchor-position.body": [
+    "Position, an der die Marker ohne Versatz initially angezeigt werden:\n",
+    "- Panzer-Marker - an der Standard-Markerposition,\n",
+    "- Panzer-Mitte - in der Mitte des Panzers,\n",
+    "- Panzer-Unterkante - an der Unterkante des Panzers."
+  ],
+  "anchor-position.option.tank-marker": "Panzer-Marker",
+  "anchor-position.option.tank-center": "Panzer-Mitte",
+  "anchor-position.option.tank-bottom": "Panzer-Unterkante",
+  "lock-position-offsets.header": "Anker-Versätze im Gefecht sperren",
+  "lock-position-offsets.body": [
+    "Wenn aktiviert, können die Marker-Positionen im Gefecht nicht mehr verschoben werden.\n",
+    "Nützlich, um versehentliche Änderungen zu verhindern."
+  ],
+  "anchor-horizontal-offset.header": "Anker horizontaler Versatz",
+  "anchor-horizontal-offset.body": [
+    "Steuert den horizontalen Versatz des Markers relativ zur Ankerposition in Pixeln.\n",
+    "Positive Werte verschieben den Marker nach rechts, negative Werte nach links.\n\n",
+    "Tipp: Die Versätze können im Gefecht visuell angepasst werden, indem Marker ",
+    "bei gedrückter STRG-Taste mit der Maus gezogen werden.\n",
+    "Die Versätze werden beim Beenden des Gefechts oder beim manuellen Verlassen gespeichert."
+  ],
+  "anchor-vertical-offset.header": "Anker vertikaler Versatz",
+  "anchor-vertical-offset.body": [
+    "Steuert den vertikalen Versatz des Markers relativ zur Ankerposition in Pixeln.\n",
+    "Positive Werte verschieben den Marker nach oben, negative Werte nach unten.\n\n",
+    "Tipp: Die Versätze können im Gefecht visuell angepasst werden, indem Marker ",
+    "bei gedrückter STRG-Taste mit der Maus gezogen werden.\n",
+    "Die Versätze werden beim Beenden des Gefechts oder beim manuellen Verlassen gespeichert."
+  ],
+  "visual-settings.label": "Visuelle Einstellungen",
+  "decimal-precision.header": "Dezimalgenauigkeit",
+  "decimal-precision.body": [
+    "Genauigkeit der angezeigten Entfernung (Nachkommastellen)."
+  ],
+  "text-size.header": "Standardschriftgröße",
+  "text-size.body": [
+    "Grundgröße des Texts im Marker."
+  ],
+  "text-alpha.header": "Text-Transparenz",
+  "text-alpha.body": [
+    "Steuert die Transparenz des Texts im Marker:\n",
+    "- Wert 1.0 bedeutet volle Sichtbarkeit,\n",
+    "- Wert 0.0 bedeutet keine Sichtbarkeit."
+  ],
+  "draw-text-outline.header": "Textumrandung zeichnen",
+  "draw-text-outline.body": [
+    "Wenn aktiviert, wird der Text zusätzlich mit schwarzer Umrandung angezeigt.\n",
+    "Sehr nützlich, wenn der Text mit beliebigen Formen verschmilzt (z. B. Hover-Icon der Panzermarker)."
+  ],
+  "draw-text-shadow.header": "Textschatten zeichnen",
+  "draw-text-shadow.body": [
+    "Wenn aktiviert, wird der Text zusätzlich mit einem weichen Gradient-Schatten angezeigt.\n",
+    "Nützlich, wenn der Text mit dem Hintergrund verschmilzt."
+  ],
+  "draw-distance-unit.header": "Entfernungs-Einheit zeichnen",
+  "draw-distance-unit.body": [
+    "Wenn aktiviert, wird die Entfernung zusätzlich mit der Einheit Meter angezeigt (z. B. \"420 m\")."
+  ],
+  "imprecise-display-mode.header": "Darstellung ungenauer Entfernungen",
+  "imprecise-display-mode.body": [
+    "Legt fest, wann statt der gerundeten Entfernung das \"^\"-Symbol angezeigt wird:\n",
+    "- Immer \"^\": Das Symbol wird immer angezeigt.\n",
+    "- \"^\" nahe Sichtkreiswechsel: In besonderen Bereichen werden genaue Zahlen angezeigt.\n",
+    "- Immer Zahlen: Es werden stets Entfernungswerte angezeigt."
+  ],
+  "imprecise-display-mode.option.always-symbol": "Immer \"^\"",
+  "imprecise-display-mode.option.except-view-range": "\"^\" nahe Sichtkreiswechsel",
+  "imprecise-display-mode.option.always-numbers": "Immer Zahlen",
+  "distance-zone-colors.label": "<b>Entfernungszonen</b>",
+  "zone-1.info": "<b>Bereich 1: Proxyspotbereich (bis 50 m)</b>",
+  "zone-2.info": "<b>Bereich 2: Sichtbereich (Sichtweite, 51-175 m)</b>",
+  "zone-3.info": "<b>Bereich 2: Sichtbereich (Sichtweite, 176-250 m)</b>",
+  "zone-4.info": "<b>Bereich 2: Sichtbereich (Sichtweite, 251-300 m)</b>",
+  "zone-5.info": "<b>Bereich 2: Sichtbereich (Sichtweite, 301-445 m)</b>",
+  "zone-6.info": "<b>Bereich 3: Darstellungsbereich (Renderdistanz, über 445 m)</b>",
+  "near-distance-color.header": "Textfarbe",
+  "near-distance-color.body": [
+    "Farbe des Marker-Texts für Panzer bis 50 m (Proxyspotbereich)."
+  ],
+  "text-color.header": "Textfarbe",
+  "text-color.body": [
+    "Farbe des Marker-Texts für Panzer zwischen 51 und 175 m."
+  ],
+  "zone3-distance-color.header": "Textfarbe",
+  "zone3-distance-color.body": [
+    "Farbe des Marker-Texts für Panzer zwischen 176 und 250 m."
+  ],
+  "zone4-distance-color.header": "Textfarbe",
+  "zone4-distance-color.body": [
+    "Farbe des Marker-Texts für Panzer zwischen 251 und 300 m."
+  ],
+  "zone5-distance-color.header": "Textfarbe",
+  "zone5-distance-color.body": [
+    "Farbe des Marker-Texts für Panzer zwischen 301 und 445 m."
+  ],
+  "far-distance-color.header": "Textfarbe",
+  "far-distance-color.body": [
+    "Farbe des Marker-Texts für Panzer weiter als 445 m (mögliche Sichtreichweite)."
+  ],
+  "size-bonus-zone1.header": "Standardschriftgröße + Summand",
+  "size-bonus-zone1.body": [
+    "Zusätzliche Schriftgröße zur Grundgröße für Panzer bis 50 m."
+  ],
+  "size-bonus-zone2.header": "Standardschriftgröße + Summand",
+  "size-bonus-zone2.body": [
+    "Zusätzliche Schriftgröße zur Grundgröße für Panzer zwischen 51 und 175 m."
+  ],
+  "size-bonus-zone3.header": "Standardschriftgröße + Summand",
+  "size-bonus-zone3.body": [
+    "Zusätzliche Schriftgröße zur Grundgröße für Panzer zwischen 176 und 250 m."
+  ],
+  "size-bonus-zone4.header": "Standardschriftgröße + Summand",
+  "size-bonus-zone4.body": [
+    "Zusätzliche Schriftgröße zur Grundgröße für Panzer zwischen 251 und 300 m."
+  ],
+  "size-bonus-zone5.header": "Standardschriftgröße + Summand",
+  "size-bonus-zone5.body": [
+    "Zusätzliche Schriftgröße zur Grundgröße für Panzer zwischen 301 und 445 m."
+  ],
+  "size-bonus-zone6.header": "Standardschriftgröße + Summand",
+  "size-bonus-zone6.body": [
+    "Zusätzlicher Schriftgrößen-Summand zur Standardgröße für Panzer über 445 m."
+  ],
+  "footer.label": "Von Lena_Kze in Deutschland erstellt. <3"
+}
