@@ -26,7 +26,7 @@ class TestTranslations(unittest.TestCase):
         self.assertEqual(t.Tr.DISTANCE_ZONE_COLORS_LABEL, '<b>Distance zones</b>')
         self.assertEqual(t.Tr.ZONE1_INFO_LABEL, '<b>Area 1: proxy spotting area (up to 50 m)</b>')
         self.assertEqual(t.Tr.ZONE6_INFO_LABEL, '<b>Area 3: display area (render distance, above 445 m)</b>')
-        self.assertEqual(t.Tr.FOOTER_LABEL, u'Von Lena_Kze in Deutschland erstellt. <3')
+        self.assertEqual(t.Tr.FOOTER_LABEL, u'Von Lena_Kze in Deutschland gemacht. <3')
         self.assertEqual(t.Tr.ZONE3_DISTANCE_COLOR_HEADER, 'Text color')
         self.assertEqual(t.Tr.ZONE4_DISTANCE_COLOR_HEADER, 'Text color')
         self.assertEqual(t.Tr.ZONE5_DISTANCE_COLOR_HEADER, 'Text color')

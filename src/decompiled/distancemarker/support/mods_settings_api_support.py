@@ -130,7 +130,7 @@ def _createUserSettings():
 
 
 def _createFooter():
-    return [{'type': 'Label', 'text': (_createRainbowText(Tr.FOOTER_LABEL))}]
+    return [{'type': 'Label', 'text': Tr.FOOTER_LABEL}]
 
 
 def _createRainbowText(text):

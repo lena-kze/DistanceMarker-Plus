@@ -106,8 +106,8 @@ class TestSettingsPage(unittest.TestCase):
         last = template['column2'][-1]
         self.assertEqual(last['type'], 'Label')
         visibleText = re.sub(r'</?font[^>]*>', '', last['text']).replace('&lt;', '<')
-        self.assertEqual(visibleText, u'Von Lena_Kze in Deutschland erstellt. <3')
-        self.assertGreaterEqual(last['text'].count('<font color='), 10, msg='Footer should be rainbow colored')
+        self.assertEqual(visibleText, u'Von Lena_Kze in Deutschland gemacht. <3')
+        self.assertNotIn('<font color=', last['text'])
 
     def test_distance_zone_color_choices(self):
         template = self._refreshTemplate()
